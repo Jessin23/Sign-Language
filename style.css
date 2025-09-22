@@ -74,7 +74,7 @@ h1 {
   left: 0;
   width: 640px;
   height: 480px;
-  transform: scaleX(-1); /* mirror */
+  transform: scaleX(-1);
   display: block;
 }
 
@@ -89,7 +89,7 @@ h1 {
 
 .prediction-text {
   margin-top: 20px;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
   color: #f57c00;
   min-height: 50px;
@@ -98,7 +98,8 @@ h1 {
   user-select: none;
   background: rgba(0, 0, 0, 0.7);
   border-radius: 8px;
-  padding: 15px;
-  margin: 20px auto;
+  padding: 10px;
+  margin: 10px auto;
   max-width: 600px;
+  word-wrap: break-word;
 }
