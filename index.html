@@ -36,15 +36,18 @@
     <div id="accumulated-text" class="prediction-text">Accumulated text...</div>
   </div>
 
+  <!-- ===============================
+       MEDIA PIPE SOLUTION BUNDLES
+       (Attach globals to window)
+       =============================== -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/holistic/holistic.js"></script>
+
   <!-- TensorFlow.js -->
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
-  <!-- MediaPipe Hands -->
-  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4.1675469240/hands.min.js"></script>
-  <!-- MediaPipe Holistic -->
-  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/holistic@0.5.1675469275/holistic.min.js"></script>
-  <!-- MediaPipe Drawing Utilities (Crucial for drawConnectors/drawLandmarks) -->
-  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils@0.3.1675469248/drawing_utils.js"></script>
 
+  <!-- Your main JS -->
   <script src="script.js"></script>
 </body>
 </html>
