@@ -23,6 +23,10 @@
       </select>
     </div>
 
+    <div class="controls">
+      <button id="clear-btn" class="mode-btn">Clear Text</button>
+    </div>
+
     <div class="video-container">
       <video id="webcam" autoplay playsinline width="640" height="480"></video>
       <canvas id="output" width="640" height="480"></canvas>
@@ -33,14 +37,14 @@
   </div>
 
   <!-- TensorFlow.js -->
-  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.8.0/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+  <!-- MediaPipe Hands -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4.1675469240/hands.min.js"></script>
+  <!-- MediaPipe Holistic -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/holistic@0.5.1675469275/holistic.min.js"></script>
+  <!-- MediaPipe Drawing Utilities (Crucial for drawConnectors/drawLandmarks) -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils@0.3.1675469248/drawing_utils.js"></script>
 
-  <!-- MediaPipe -->
-  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
-
-  <!-- App script -->
   <script src="script.js"></script>
 </body>
 </html>
